@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="/VERIFICADOR DE IDADE/style2.css">
     <title>VERIFICADOR DE IDADE</title>
 </head>
 
@@ -19,18 +19,20 @@
             <p> Anos de nascimento:</p>
             <input type="number" id="txtano">
             <p>Sexo:</p>
+            <!-- Masculino-->
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
 
-            <input type="radio" id="radsex"><label for="mas" checked>Masculino</label>
+            <!--Feminino-->
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
 
-
-            <input type="radio" id="radsex"><label for="fem">Feminino</label>
-
-
+            <!--Verificar-->
             <p><input type="button" value="verificar" onclick="verificar()"></p>
         </div>
 
         <div id="res">
-
+            Preencha os dados acima para ver os resultados!
 
         </div>
 
@@ -41,20 +43,7 @@
         <p>Exercícios JS ©</p>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script2.js"></script>
+    <script src="/VERIFICADOR DE IDADE/script2.js"></script>
 </body>
 
 </html>
